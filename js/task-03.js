@@ -21,5 +21,3 @@ images.forEach((el) => {
     `<li class = "item" ><img src = "${el.url}" alt = "${el.alt}"  width = "250" height = "150"   /></li>`
   );
 });
-
-console.log(ulEl);
